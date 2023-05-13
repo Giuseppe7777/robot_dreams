@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrapper__photo img {
+    width: 350px;
+}
+
+.wrapper__profession {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.wrapper__experience li {
+    margin-bottom: 20px;
+}
+
+.wrapper__experience li div {
+    margin-bottom: 6px;
+}
+
+.wrapper__experience ol li div:first-child {
+    font-weight: bold;
+}
+
+.wrapper__experience ol li div span {
+    color: blue;
+}
+
+
+
