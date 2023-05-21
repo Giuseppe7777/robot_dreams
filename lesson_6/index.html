@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/" name="register-form">
+        <h1>Lesson 6</h1>
+        <fieldset>
+            <legend>Name</legend>
+            <label for="name">First name</label><br>
+            <input type="text" id="name" name="first-name" placeholder="First name" required minlength="3" maxlength="15"><br><br>
+            <label for="surname">Last name</label><br>
+            <input type="text" id="surname" name="last-name" placeholder="Last name" required>
+        </fieldset>
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="male">
+        <br>
+        <p>Choose your car</p>
+        <label for="">BMW</label>
+        <input type="checkbox" name="bmw" value="bmw" id="bmw">
+        <label for="">Audi</label>
+        <input type="checkbox" name="audi" value="audi" id="audi">
+        <label for="">VW</label>
+        <input type="checkbox" name="vw" value="vw" id="vw">
+        <label for="">Opel</label>
+        <input type="checkbox" name="opel" value="opel" id="opel">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="100">
+        <br>
+        <br>
+
+        <select name="car" id="">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" name="Choose all" value="Choose all">
+        <br>
+        <br>
+        <label for="password">Enter password</label><br>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <label for="password1">Confirm password</label><br>
+        <input type="password" name="password1" id="password1">
+        <br>
+        <br>
+        <input type="submit" value="Sign up" name="Sign up" id="">
+        <br>
+        <br>
+        <input type="hidden" name="hidden-field" value="secret value" id="">
+        <br>
+        <br>
+        <label for="exp">Write your experience</label>
+        <br>
+        <textarea name="" id="exp" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="avatar">Your photo</label>
+        <input type="file" name="avatar" id="avatar">
+    </form>
+</body>
+</html>
