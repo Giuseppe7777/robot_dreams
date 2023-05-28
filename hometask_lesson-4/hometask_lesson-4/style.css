@@ -5,7 +5,8 @@ body {
 }
 
 h3 {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 3px solid #e36d6d;
 }
 
 a {
@@ -13,18 +14,25 @@ a {
 }
 
 .container {
-    width: 1000px;
+    width: 796px;
     margin: 0 auto;
+}
+
+.wrapper__name {
+    border-bottom: 3px solid #e36d6d;
 }
 
 .wrapper__photo img {
     width: 350px;
+    padding: 10px;
+    border: 3px solid #ff0202
 }
 
 .wrapper__profession {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
+    border-bottom: 3px solid #e36d6d;
 }
 
 .wrapper__experience li {
@@ -54,14 +62,16 @@ th, td {
     border: 2px solid #000;
     border-radius: 8px;
     padding: 10px;
+    background-color: #def8ff;
 }
 
 th {
     text-transform: uppercase;
+    background-color: #75d0e7;
 }
 
-table tr:hover {
-    background-color: rgb(15, 183, 235, .2);
+table td:hover {
+    background-color: #b6efff;
 }
 
 td:last-child {
