@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica,  sans-serif;
+    font-size: 18px;
+    color: #333;
+}
+
+h3 {
+    text-decoration: none;
+    border-bottom: 3px solid #e36d6d;
+}
+
+a {
+    color: blue;
+}
+
+.container {
+    width: 796px;
+    margin: 0 auto;
+}
+
+.wrapper__name {
+    border-bottom: 3px solid #e36d6d;
+}
+
+.wrapper__photo img {
+    width: 350px;
+    padding: 10px;
+    border: 3px solid #ff0202
+}
+
+.wrapper__profession {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #e36d6d;
+}
+
+.wrapper__experience li {
+    margin-bottom: 20px;
+}
+
+.wrapper__experience li div {
+    margin-bottom: 6px;
+}
+
+.wrapper__experience ol li div:first-child {
+    font-weight: bold;
+}
+
+.wrapper__experience ol li div span {
+    color: blue;
+}
+
+table {
+    width: 800px;
+    border: none;
+    border-spacing: 5px;
+}
+
+
+th, td {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #def8ff;
+}
+
+th {
+    text-transform: uppercase;
+    background-color: #75d0e7;
+}
+
+table td:hover {
+    background-color: #b6efff;
+}
+
+td:last-child {
+    font-weight: 700;
+}
+
+.wrapper__name {
+    font-style: italic;
+}
+
+a {
+    color: #00f;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: square;
+}
+
