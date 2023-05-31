@@ -1,0 +1,80 @@
+body {
+}
+
+.container {
+    border: 5px solid #000;
+    background-color: #eee;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 850px;
+}
+
+.box {
+    border: 3px solid #ff0000;
+    font-weight: bold;
+    margin: 0px 2px;
+}
+
+.bbox-1 {
+}
+
+
+.bbox-2 {
+}
+.bbox-3 {
+}
+.bbox-4 {
+    
+}
+.bbox-5 {
+    flex: 1 1 auto;
+}
+.bbox-6 {
+}
+.bbox-7 {
+}
+.bbox-8 {
+}
+
+
+.box-1 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-2 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-3 {
+    padding: 30px;
+    background: #93e664;
+    text-align: center;
+    font-size: 24px;
+}
+.box-4 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-5 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-6 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-7 {
+    padding: 30px;
+    background: #93e664;
+}
+.box-8 {
+    padding: 30px;
+    background: #93e664;
+}
+
+
+
+
+
