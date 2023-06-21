@@ -1,0 +1,155 @@
+# Query: button
+# ContextLines: 1
+
+56 results - 7 files
+
+lesson_11\index.html:
+   47              <h1 class="intro__heading">Your favorite language school</h1>
+   48:             <button class="btn btn-intro">Order lesson</button>
+   49          </div>
+
+   64                          </div>
+   65:                         <button class="btn btn-main">Find out more</button>
+   66                      </div>                    
+
+   77                          </div>
+   78:                         <button class="btn btn-main">Find out more</button>
+   79                      </div>   
+
+   90                          </div>
+   91:                         <button class="btn btn-main">Find out more</button>
+   92                      </div>
+
+  103                          </div>
+  104:                         <button class="btn btn-main">Find out more</button>
+  105                      </div>            
+
+lesson_11\styles\reset.css:
+  194    
+  195:   button,
+  196    input,
+
+  210    
+  211:   button,
+  212    input { /* 1 */
+
+  220    
+  221:   button,
+  222    select { /* 1 */
+
+  229    
+  230:   button,
+  231:   [type="button"],
+  232    [type="reset"],
+  233    [type="submit"] {
+  234:     -webkit-appearance: button;
+  235      cursor: pointer;
+
+  241    
+  242:   button::-moz-focus-inner,
+  243:   [type="button"]::-moz-focus-inner,
+  244    [type="reset"]::-moz-focus-inner,
+
+  253    
+  254:   button:-moz-focusring,
+  255:   [type="button"]:-moz-focusring,
+  256    [type="reset"]:-moz-focusring,
+  257    [type="submit"]:-moz-focusring {
+  258:     outline: 1px dotted ButtonText;
+  259    }
+
+  312    /**
+  313:    * Correct the cursor style of increment and decrement buttons in Chrome.
+  314     */
+  315    
+  316:   [type="number"]::-webkit-inner-spin-button,
+  317:   [type="number"]::-webkit-outer-spin-button {
+  318      height: auto;
+
+  343    
+  344:   ::-webkit-file-upload-button {
+  345:     -webkit-appearance: button; /* 1 */
+  346      font: inherit; /* 2 */
+
+lesson_12\contact_us.html:
+  49          <h1 class="intro__heading">Your favorite language school</h1>
+  50:         <button class="btn btn-intro">Order lesson</button>
+  51      </div>
+
+lesson_12\home.html:
+   48              <h1 class="intro__heading">Your favorite language school</h1>
+   49:             <button type="submit" onclick="location.href='contact_us.html'" class="btn btn-intro">Order lesson</button>
+   50          </div>
+
+   65                          </div>
+   66:                         <button class="btn btn-main">Find out more</button>
+   67                      </div>                    
+
+   78                          </div>
+   79:                         <button class="btn btn-main">Find out more</button>
+   80                      </div>   
+
+   91                          </div>
+   92:                         <button class="btn btn-main">Find out more</button>
+   93                      </div>
+
+  104                          </div>
+  105:                         <button class="btn btn-main">Find out more</button>
+  106                      </div>            
+
+lesson_12\styles\contact_us.css:
+  88  
+  89: .form__form button {
+  90      display: block;
+
+lesson_12\styles\reset.css:
+  194    
+  195:   button,
+  196    input,
+
+  210    
+  211:   button,
+  212    input { /* 1 */
+
+  220    
+  221:   button,
+  222    select { /* 1 */
+
+  229    
+  230:   button,
+  231:   [type="button"],
+  232    [type="reset"],
+  233    [type="submit"] {
+  234:     -webkit-appearance: button;
+  235      cursor: pointer;
+
+  241    
+  242:   button::-moz-focus-inner,
+  243:   [type="button"]::-moz-focus-inner,
+  244    [type="reset"]::-moz-focus-inner,
+
+  253    
+  254:   button:-moz-focusring,
+  255:   [type="button"]:-moz-focusring,
+  256    [type="reset"]:-moz-focusring,
+  257    [type="submit"]:-moz-focusring {
+  258:     outline: 1px dotted ButtonText;
+  259    }
+
+  312    /**
+  313:    * Correct the cursor style of increment and decrement buttons in Chrome.
+  314     */
+  315    
+  316:   [type="number"]::-webkit-inner-spin-button,
+  317:   [type="number"]::-webkit-outer-spin-button {
+  318      height: auto;
+
+  343    
+  344:   ::-webkit-file-upload-button {
+  345:     -webkit-appearance: button; /* 1 */
+  346      font: inherit; /* 2 */
+
+lesson_6\index.html:
+  49          <br>
+  50:         <input type="button" name="Choose all" value="Choose all">
+  51          <br>

@@ -1,0 +1,31 @@
+.main h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.main__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+    width: 1000px;
+    margin: 50px auto 50px;
+    height: 1240px;
+}
+
+.main__container img {
+    width: 33.33333%;
+    margin: 0 10px 10px 0;
+}
+
+.main__container img:hover {
+    transform: scale(1.5);
+    transition: all .5s linear;
+    box-shadow: 
+        3px 3px 5px rgba(0, 0, 0, 0.2),
+        -3px -3px 5px rgba(0, 0, 0, 0.2),
+        -1px 1px 5px 5px rgba(0, 0, 0, 0.2),
+        -1px -1px 5px 5px rgba(0, 0, 0, 0.2);
+}
