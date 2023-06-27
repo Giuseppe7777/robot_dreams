@@ -17,25 +17,21 @@ body {
     align-items: center;
     text-align: center;
 }
-
 header div {
     width: 181px;
 }
-
 .header__worktime p {
     font-weight: bold;
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
 }
-
 .header__address {
     font-weight: bold;
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
 }
-
 /* Nav ========================================== */
 .nav {
     width: 100%;
@@ -45,6 +41,7 @@ header div {
     top: 0;
     left: 0;
     z-index: 2;
+    border-top: 3px solid #fff;
 }
 .nav__list {
     height: 100px;
@@ -52,13 +49,11 @@ header div {
     justify-content: space-evenly;
     align-items: center;
 }
-
 .nav__link {
     width: 181px;
     text-align: center;
     padding: 25.5px 0px;
 }
-
 .nav__link a {
     font-weight: bold;
     font-size: 40px;
@@ -66,7 +61,6 @@ header div {
     color: var(--main-text-color);
     transition: all .2s linear;
 }
-
 .nav__link a:hover {
     color: var(--main-color);
     text-shadow: 
@@ -86,7 +80,6 @@ header div {
     flex-direction: column;
     justify-content: center;
 }
-
 .intro__heading {
     font-weight: bold;
     font-size: 115px;
@@ -115,7 +108,6 @@ header div {
     border: 1px solid var(--main-border-color);
     transition: all .2s linear;
 }
-
 .btn:hover {
     color: var(--main-color);;
     text-shadow: 
@@ -124,12 +116,10 @@ header div {
         1px -1px 0 var(--main-hover-text-shadow-color),
         -1px -1px 0 var(--main-hover-text-shadow-color);    
 }
-
 .btn-intro {
     padding: var(--btn-intro-padding);
     margin-left: 6%;
 }
-
 .btn-main {
     padding: var(--btn-main-padding);
     align-self: center;
@@ -141,18 +131,15 @@ header div {
     background-color: var(--main-footer-bg-color);    
     padding: 20px 0px;
 }
-
 .footer__inner {
     text-align: center;
 }
-
 .footer__inner p {
     font-size: 1.2em;
     font-weight: semibold;
     color: var(--main-text-color);
     margin-bottom: 10px;
 }
-
 .footer__inner .fa-heart {
     display: inline-block;
     margin: 0px 15px;
@@ -174,7 +161,6 @@ header div {
     align-items: center;
     display: none;
 }
-
 .burger span {
     font-size: 0;
     color: transparent;
@@ -183,7 +169,6 @@ header div {
     background-color: #fff;
     position: relative;
 }
-
 .burger span::before,
 .burger span::after {
     content: "";
@@ -192,13 +177,10 @@ header div {
     background-color: #fff;
     position: absolute;
 }
-
 .burger span::before {
     content: "";
     top: -15px;
 }
-
-
 .burger span::after {
     content: "";
     bottom: -15px;
@@ -211,7 +193,6 @@ header div {
         font-size: 85px;
     }
 }
-
 @media (max-width: 1300px) {
     .main__box {
         flex: 0 1 50%;
@@ -220,7 +201,6 @@ header div {
         font-size: 75px;
     }
 }
-
 @media (max-width: 767px) {
     .header__worktime,
     .header__address {
@@ -241,10 +221,29 @@ header div {
         margin: 0 auto;
     }
 }
-
 @media (max-width: 425px) {
     .intro__heading {
         font-size: 55px;
     }
+}
+
+@media (min-width: 768px) {
+    /* Header ======================================= */
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    box-shadow: 
+        inset var(--main-color) 5px 3px 8px, 
+        inset var(--main-color) -5px -4px 8px;
+}
+.header__logo a img {
+    box-shadow: 
+    var(--main-color) 5px 0 8px, 
+    var(--main-color) -5px 0 8px;
+}
 }
 
