@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Languagescool</title>
+</head>
+
+<body class="my-theme">
+<div class="wrapper">
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__worktime">
+            <p>Mo - Fr: 8:00 - 17:00</p>
+            <p>other days on request</p>
+        </div>
+        <div class="header__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="header__address">
+            <p>Oberwart, A-7400</p>
+            <p>Badgasse, 77</p>
+        </div>
+    </header>
+    <!-- Nav -->
+    <div class="nav">
+        <ul class="nav__list">
+            <li class="nav__link">
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav__link">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav__link">
+                <a href="contact_us.html">Contact us</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <span>Menu</span>
+        </div>
+    </div>
+
+        <!-- Intro -->
+        <div class="intro">
+            <h1 class="intro__heading">Your favorite language school</h1>
+            <div class="button">
+                <button type="submit" onclick="location.href='contact_us.html'" class="btn btn-intro">
+                    <div class="flip-front">Klick here</div>
+                    <div class="flip-back">Order lesson</div>
+                </button>
+            </div>
+        </div>
+    
+    <!-- Main-Form -->
+    <div class="mainform">
+        <div class="mainform__container">
+
+            <div class="mainform__info info">
+                <h1>Contact Us</h1>
+                <div class="info__phone">
+                    <p>Phone</p>
+                    <p>+43-660-972-0-372</p>
+                </div>
+                <div class="info__address">
+                    <p>Oberwart, A-7400</p>
+                    <p>Badgasse, 77</p>
+                </div>
+            </div>
+
+            <div class="mainform__map map">
+                <h2>Our destination</h2>
+                <div class="map__frame">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1277.2730539325617!2d16.210412559727185!3d47.28603953075788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e8d9ebbd3d43b%3A0x60cd7485e29153ba!2sSchulgasse%2C%207400%20Oberwart!5e0!3m2!1suk!2sat!4v1686592470966!5m2!1suk!2sat" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="mainform__form form">
+                <form action="#" class="form__form">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" autocomplete="off">
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Last Name" autocomplete="off">
+
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Phone" autocomplete="off">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required placeholder="E-mail" autocomplete="off">
+
+                    <label for="notes">Special Notes</label>
+                    <textarea name="text" id="notes" placeholder="Special Notes"></textarea>
+
+                    <input type="submit" class="submit" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <p>All rights reserved</p>
+            <p>Made with<i class="fa-sharp fa-solid fa-heart fa-beat"></i><span>from Giuseppe</span></p>
+        </div>
+    </footer>
+</div>
+</body>
+
+</html>
