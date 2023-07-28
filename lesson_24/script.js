@@ -79,4 +79,3 @@ function findMaxNumber(array) {
 let numbers = [117, 15, 100000, 1, 55, 7, 578, 1001, 2510, 3512];
 console.log(findMinNumber(numbers)); 
 console.log(findMaxNumber(numbers)); 
-
