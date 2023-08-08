@@ -37,3 +37,7 @@ acc.decrement();
 console.log(acc.value);
 acc.clear();
 console.log(acc.value);
+acc.increment();
+console.log(acc.value);
+acc.increment();
+console.log(acc.value);
