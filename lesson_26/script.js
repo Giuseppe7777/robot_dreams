@@ -1,4 +1,5 @@
 
+
 function Accumulator(initialValue) {
     this.value = initialValue;
     this.increment = function() {
@@ -41,3 +42,4 @@ acc.increment();
 console.log(acc.value);
 acc.increment();
 console.log(acc.value);
+
