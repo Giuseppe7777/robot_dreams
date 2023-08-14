@@ -1,0 +1,19 @@
+span img {
+    width: 500px;
+}
+
+.tweet {
+    width: 600px;
+    background-color: #cefad3;
+    margin: 0 auto;
+}
+
+.tweet h2 {
+    color: red;
+}
+
+.tweet img {
+    width: 25px;
+    height: 25px;
+}
+
