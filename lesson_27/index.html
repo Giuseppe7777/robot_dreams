@@ -1,52 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Objects</title>
+    <title>JS. Робота з DOM</title>
 </head>
 <body>
     <div class="container">
-
-        <h2>Less  on 27 DOM</h2>
-        <h2>Test 1</h2>
-        <h2>Test 2</h2>
-        <h2>Test 3</h2>
-        <h2>Test 4</h2>
-        <h2>Test 5</h2>
-        <h2>Test 6</h2>
-        
-        <div id="demo">Demo</div>
-
-        <div id="test">Test
-            <span>from html</span>
-            <span>from html</span>
-            <span>from html</span>
-            <span>from html</span>
-            <span>from html</span>
+        <div class="container-input">
+            <input type="text" id="firstNumber" placeholder="Введіть перше число">
+            <input type="text" id="secondNumber" placeholder="Введіть друге число">
+            <button onclick="getResult()">Показати результат</button>
         </div>
-
-        <div style="font-size: 24px;" class="paragraph test my-class">Paragraph</div>
-        <div class="paragraph"></div>
-        <p class="my-paragraph"></p>
-        <p class="paragraph"></p>
-
-        <span>
-            <img src="https://cdn.wbtourisme.be/sites/default/files/Campagne-1.jpg" alt="">
-        </span>
-        <span>
-            <img src="https://cdn.wbtourisme.be/sites/default/files/Campagne-1.jpg" alt="">
-        </span>
-        <span>
-            <img src="https://cdn.wbtourisme.be/sites/default/files/Campagne-1.jpg" alt="">
-        </span>
-        <span>
-            <img src="https://cdn.wbtourisme.be/sites/default/files/Campagne-1.jpg" alt="">
-        </span>
+        <div class="container-output">
+            <h4>Результат очислення</h4>
+            <div>
+                <p>Додавання</p>
+                <span id="resultAdd">0</span>
+            </div>
+            <div>
+                <p>Віднімання</p>
+                <span id="resultSub">0</span>
+            </div>
+            <div>
+                <p>Множення</p>
+                <span id="resultMult">0</span>
+            </div>
+            <div>
+                <p>Ділення</p>
+                <span id="resultDiv">0</span>
+            </div>
+        </div>
+        <div class="numbers-container"></div>
     </div>
-
-    <div id="tweets-container"></div>
 
     <script src="script.js"></script>
 </body>
