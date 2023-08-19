@@ -1,0 +1,68 @@
+
+.maingallery {
+    padding: 50px 10%;
+    & h1 {
+        text-align: center;
+        margin: 50px 0;
+        font-size: 42px;
+        font-weight: bold;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__image {
+        & img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+@keyframes image_grow {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+// Media ========================================
+@media (min-width: 768px) {
+    .maingallery {
+        &__container {
+            flex-direction: row;
+        }
+    }
+}
+
+@mixin animate($name, $time, $tf, $itc, $fm) {
+    animation-name: $name;
+    animation-duration: $time;
+    animation-timing-function: $tf;
+    animation-iteration-count: $itc;
+    animation-fill-mode: $fm;
+}
+
+@media (min-width: 768px) {
+    .maingallery {
+        &__image {
+            & img {
+                &:hover {
+                    @include animate(image_grow, .5s, ease-in, 1, forwards);
+                    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(0, 0, 0, 0.2),
+                        -1px 1px 5px 5px rgba(0, 0, 0, 0.2), -1px -1px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+}
