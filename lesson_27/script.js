@@ -74,65 +74,59 @@ function getResult() {
 
 // ---------------------- Min, Max -------------------
 
+// ========================================================
 
 
 function findMinNumber(array) {
-    if (!Array.isArray(array) || array.length === 0) return null; 
+    if (!Array.isArray(array) || array.length === 0) return null;
 
-    let minNumber = array[0]; 
+    let minNumber = array[0];
 
-    for (let i = 1; i < array.length; i++) { 
-        if (array[i] < minNumber) { 
-            minNumber = array[i]; 
+    for (let i = 1; i < (array.length); i++) {
+        if (array[i] < minNumber) {
+            minNumber = array[i];
         }
     }
-
-    return minNumber; 
-}
+    return minNumber;
+};
 
 function findMaxNumber(array) {
-    if (!Array.isArray(array) || array.length === 0) return null; 
+    if (!Array.isArray(array) || array.length === 0) return null;
 
-    let maxNumber = array[0]; 
+    let maxNumber = array[0];
 
-    array.forEach(number => { 
-        if (number > maxNumber) { 
-            maxNumber = number; 
-        }
+    array.forEach(element => {
+        if (element > maxNumber) {
+            maxNumber = element;
+        };
     });
+    return maxNumber;
+};
 
-    return maxNumber; 
-}
+let numbers = [1, 5, 7, 9, 11, 13, 15, 17, 19, 21];
 
 function lerp(value, min, max) {
     return (value - min) / (max - min);
-}
+};
 
 function numberToColor(value, min, max) {
     const scale = lerp(value, min, max) * 255;
     return `rgb(${scale}, ${scale}, ${scale})`;
-}
+};
 
-let numbers = [1, 6.5, 5.8, 4, 5, 6, 7, 8, 9, 10];
 
 const minNumber = findMinNumber(numbers);
 const maxNumber = findMaxNumber(numbers);
 
-const container = document.querySelector('.numbers-container');
+let container = document.querySelector('.numbers-container');
 
 numbers.forEach(num => {
     const color = numberToColor(num, minNumber, maxNumber);
-
+    console.log(color);
+    
     const div = document.createElement('div');
     div.style.backgroundColor = color;
     div.textContent = num;
     
     container.appendChild(div);
 });
-
-
-
-
-
-
-
